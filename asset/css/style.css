@@ -142,3 +142,12 @@ header a {
     width: 30%;
     font-size: 1.3rem;
 }
+
+#section-5 {
+    height: 50vh;
+    position: relative;
+}
+
+.img-5 {
+    max-width: 30%;
+}
