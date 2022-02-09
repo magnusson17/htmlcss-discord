@@ -41,6 +41,18 @@
     display: inline-block;
 }
 
+.text-centered {
+    text-align: center;
+}
+
+.btn-basic-style {
+    border-radius: 10px;
+    border: none;
+    padding: 5px;
+    text-transform: capitalize;
+    cursor: pointer;
+}
+
 .container-80-100 {
     width: 80%;
     height: 100%;
@@ -74,6 +86,24 @@
 
 header {
     height: 10vh;
+    background-color: blue;
+}
+
+#header-center-div {
+    margin: 0 5%;
+}
+
+/*da rivedere*/
+header div {
+    line-height: 10vh;
+}
+/**/
+
+header a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 0 20px;
 }
 
 #section-1 {
