@@ -14,8 +14,12 @@
     clear: both;
 }
 
-.float {
+.float-left {
     float: left;
+}
+
+.float-right {
+    float: right;
 }
 
 .text-centered {
@@ -49,6 +53,14 @@
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
+}
+
+.central-sections {
+    height: 400px;
+    width: 80%;
+    height: 100%;
+    margin: 80px auto 0 auto;
+    border: 1px solid black;
 }
 /*end-multi-use classes*/
 
@@ -102,6 +114,21 @@ header {
     color: white;
 }
 
+/*section-2-3-4*/
+.section-text-style {
+    width: 30%;
+    font-size: 1.5rem;
+} 
+.section-img-style {
+    height: 100%;
+}
+
+.text-align-right {
+    text-align: right;
+}
+
+
+
 
 
 
@@ -129,10 +156,6 @@ header {
     display: inline-block;
 }
 
-
-
-
-
 .container-50-100 {
     width: 50%;
     height: 100%;
@@ -147,42 +170,11 @@ header {
     width: 50%;
 }
 
-
-
-
-
-
 /*end multi-use classes*/
 
 
 #header-center-div {
     margin: 0 5%;
-}
-
-/*da rivedere*/
-header div {
-    line-height: 10vh;
-}
-/**/
-
-
-
-
-#section-2 {
-    height: 50vh;
-}
-
-#container-section-2, #container-section-3, #container-section-4 {
-    padding-top: 50px;
-}
-
-.img-style {
-    width: 70%;
-}
-
-.section-text-style {
-    width: 30%;
-    font-size: 1.3rem;
 }
 
 #section-5 {
