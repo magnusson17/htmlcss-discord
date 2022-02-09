@@ -110,7 +110,7 @@ header a {
 }
 
 #section-1 {
-    height: 40vh;
+    height: 50vh;
     position: relative;
     color: white;
     background-image: url("../img/jumbo.png");
@@ -124,4 +124,21 @@ header a {
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+#section-2 {
+    height: 50vh;
+}
+
+#container-section-2, #container-section-3, #container-section-4 {
+    padding-top: 50px;
+}
+
+.img-style {
+    width: 70%;
+}
+
+.section-text-style {
+    width: 30%;
+    font-size: 1.3rem;
 }
