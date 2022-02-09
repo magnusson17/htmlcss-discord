@@ -7,36 +7,83 @@
     font-family: Lato, Roboto;
 }
 
-/*prova classes*/
-.prova-bg-red {
-    background-color: red;
-    border: 0.1px solid black;
+.clearfix::after {
+    content: "";
+    display: table;
+    clear: both;
 }
 
-.prova-bg-green {
-    background-color: green;
-    border: 0.1px solid black;
+.float {
+    float: left;
 }
 
-.prova-bg-pink {
-    background-color: pink;
-    border: 0.1px solid black;
+header {
+    height: 80px;
+    background-color: blue;
 }
 
-.prova-height {
-    height: 50px;
-}
 
-.prova-height-100-100 {
+.header-container {
+    width: 80%;
     height: 100%;
+    margin: auto;
 }
 
-.prova-width-100-100 {
-    width: 100%;
+.container-transform-translate {
+    height: 100%;
+    position: relative;
 }
-/*end prova classes*/
+
+.transform-translate {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+#discord-logo-container, #header-btn-container {
+    width: 10%;
+}
+
+#header-nav-container {
+    width: 80%;
+}
+
+#header-nav-container a {
+    display: inline-block;
+    color: white;
+    text-decoration: none;
+    margin: 20px;
+}
+
+#header-nav-container a:hover {
+    text-decoration: underline;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 /*multi-use classes*/
+.container-80-100 {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
 .div-inline-block {
     display: inline-block;
 }
@@ -50,12 +97,6 @@
     border: none;
     padding: 5px;
     cursor: pointer;
-}
-
-.container-80-100 {
-    width: 80%;
-    height: 100%;
-    margin: auto;
 }
 
 .container-50-100 {
@@ -72,25 +113,15 @@
     width: 50%;
 }
 
-.float {
-    float: left;
-}
 
-.clearfix::after {
-    content: "";
-    display: table;
-    clear: both;
-}
+
+
 
 .div-margin {
     margin: 30px 0;
 }
 /*end multi-use classes*/
 
-header {
-    height: 10vh;
-    background-color: blue;
-}
 
 #header-center-div {
     margin: 0 5%;
@@ -102,12 +133,6 @@ header div {
 }
 /**/
 
-header a {
-    display: inline-block;
-    color: white;
-    text-decoration: none;
-    margin: 0 20px;
-}
 
 #section-1 {
     height: 50vh;
