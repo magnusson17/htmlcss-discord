@@ -7,6 +7,7 @@
     font-family: Lato, Roboto;
 }
 
+/*multi-use classes*/
 .clearfix::after {
     content: "";
     display: table;
@@ -17,20 +18,23 @@
     float: left;
 }
 
-header {
-    height: 80px;
-    background-color: blue;
+.text-centered {
+    text-align: center;
 }
 
+.div-margin {
+    margin: 30px 0;
+}
 
-.header-container {
-    width: 80%;
-    height: 100%;
-    margin: auto;
+.btn-basic-style {
+    border-radius: 15px;
+    border: none;
+    padding: 10px;
+    cursor: pointer;
+    /* font-weight: bolder; */
 }
 
 .container-transform-translate {
-    height: 100%;
     position: relative;
 }
 
@@ -41,12 +45,33 @@ header {
     transform: translate(-50%, -50%);
 }
 
+.bg-size-position-repeat {
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+}
+/*end-multi-use classes*/
+
+/*header*/
+header {
+    height: 80px;
+    background-color: blue;
+}
+
+.header-container {
+    width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
 #discord-logo-container, #header-btn-container {
     width: 10%;
+    height: 100%;
 }
 
 #header-nav-container {
     width: 80%;
+    height: 100%;
 }
 
 #header-nav-container a {
@@ -60,6 +85,22 @@ header {
     text-decoration: underline;
 }
 
+/*section-1*/
+#section-1 {
+    height: 400px;
+    color: white;
+    background-image: url("../img/jumbo.png");   
+}
+
+.btn-white {
+    background-color: white;
+    color: black;
+}
+
+.btn-black {
+    background-color: black;
+    color: white;
+}
 
 
 
@@ -88,16 +129,9 @@ header {
     display: inline-block;
 }
 
-.text-centered {
-    text-align: center;
-}
 
-.btn-basic-style {
-    border-radius: 10px;
-    border: none;
-    padding: 5px;
-    cursor: pointer;
-}
+
+
 
 .container-50-100 {
     width: 50%;
@@ -117,9 +151,7 @@ header {
 
 
 
-.div-margin {
-    margin: 30px 0;
-}
+
 /*end multi-use classes*/
 
 
@@ -134,22 +166,7 @@ header div {
 /**/
 
 
-#section-1 {
-    height: 50vh;
-    position: relative;
-    color: white;
-    background-image: url("../img/jumbo.png");
-    background-size: cover;
-    background-position: center;
-    background-repeat: no-repeat;
-}
 
-#container-section-1 {
-    position: absolute;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%);
-}
 
 #section-2 {
     height: 50vh;
