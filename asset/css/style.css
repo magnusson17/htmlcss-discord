@@ -151,3 +151,14 @@ header a {
 .img-5 {
     max-width: 30%;
 }
+
+footer {
+    background-color: black;
+    height: 80vh;
+}
+
+.footer-container-float div {
+    width: 20%;
+    float: left;
+    color: white;
+}
