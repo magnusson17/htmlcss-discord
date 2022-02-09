@@ -10,17 +10,17 @@
 /*prova classes*/
 .prova-bg-red {
     background-color: red;
-    border: 1px solid black;
+    border: 0.1px solid black;
 }
 
 .prova-bg-green {
     background-color: green;
-    border: 1px solid black;
+    border: 0.1px solid black;
 }
 
 .prova-bg-pink {
     background-color: pink;
-    border: 1px solid black;
+    border: 0.1px solid black;
 }
 
 .prova-height {
@@ -29,6 +29,10 @@
 
 .prova-height-100-100 {
     height: 100%;
+}
+
+.prova-width-100-100 {
+    width: 100%;
 }
 /*end prova classes*/
 
@@ -39,6 +43,12 @@
 
 .container-80-100 {
     width: 80%;
+    height: 100%;
+    margin: auto;
+}
+
+.container-50-100 {
+    width: 50%;
     height: 100%;
     margin: auto;
 }
@@ -64,4 +74,8 @@
 
 header {
     height: 10vh;
+}
+
+#section-1 {
+    height: 40vh;
 }
