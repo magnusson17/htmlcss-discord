@@ -170,7 +170,7 @@ header {
 
 /*footer*/
 footer {
-    background-color: black;
+    background-color: #23272A;
     padding: 50px 0;
     height: 400px;
 }
@@ -185,11 +185,12 @@ footer {
     margin-bottom: 20px;
 }
 
-#top-part-footer h3, #top-part-footer h5 {
+#top-part-footer h2, #top-part-footer h4 {
     color: #8EA1E1;
 }
 
 #top-part-footer ul {
+    margin-top: 10px;
     color: white;
     list-style: none;
 }
@@ -204,11 +205,15 @@ footer {
 }
 
 #footer-container hr {
-    border-color: silver;
+    border-color: #8EA1E1;
 }
 
 #bottom-part-footer {
     margin-top: 20px;
+}
+
+#ita-flag {
+    height: 12px;
 }
 
 
