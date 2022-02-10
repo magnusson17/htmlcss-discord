@@ -60,6 +60,22 @@
     position: relative;
 }
 
+.wave-img {
+    display: block;
+}
+
+.wave-bg {
+    background-color: red;
+}
+
+.wave-even {
+    filter: brightness;
+}
+
+.wave-odd {
+    filter: brightness;
+}
+
 .transform-translate {
     position: absolute;
     top: 50%;
@@ -77,7 +93,7 @@
     height: 400px;
     width: 80%;
     height: 100%;
-    margin: 80px auto 0 auto;
+    margin: 0px auto;
 }
 /*end-multi-use classes*/
 
@@ -142,15 +158,15 @@ header {
     text-align: right;
 }
 
-/* #section-3-bg {
+.section-3-bg {
     background-color: red;
-} */
+}
 
 /*section-5*/
 #section-5 {
-    margin: 50px 0;
+    /* margin: 50px 0; */
     height: 800px;
-    /* background-color: red; */
+    background-color: red;
 }
 
 #section-5-h2-p-container {
