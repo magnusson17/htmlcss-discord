@@ -60,21 +60,23 @@
     position: relative;
 }
 
+/*wave section*/
 .wave-img {
     display: block;
 }
 
 .wave-bg {
-    background-color: red;
+    background-color: silver;
 }
 
 .wave-even {
-    filter: brightness;
+    filter: invert(100%);
 }
 
 .wave-odd {
-    filter: brightness;
+    filter: contrast(0%) brightness(150%);
 }
+/*end wave section*/
 
 .transform-translate {
     position: absolute;
@@ -109,14 +111,16 @@ header {
     margin: auto;
 }
 
-.discord-logo-container, #header-btn-container {
-    width: 10%;
-    height: 100%;
+.vertical-align {
+    height: 40px;
+    vertical-align: middle;
+    line-height: 40px;
 }
 
-#header-nav-container {
-    width: 80%;
-    height: 100%;
+#discord-logo-header {
+    height: 40px;
+    vertical-align: middle;
+    line-height: 40px;
 }
 
 #header-nav-container div{
@@ -146,6 +150,10 @@ header {
 }
 
 /*section-2-3-4*/
+#section-2 {
+    margin-top: 80px;
+}
+
 .central-section-text-style {
     width: 30%;
     font-size: 1.4rem;
@@ -159,14 +167,14 @@ header {
 }
 
 .section-3-bg {
-    background-color: red;
+    background-color: silver;
 }
 
 /*section-5*/
 #section-5 {
     /* margin: 50px 0; */
     height: 800px;
-    background-color: red;
+    background-color: silver;
 }
 
 #section-5-h2-p-container {
