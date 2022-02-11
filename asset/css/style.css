@@ -96,7 +96,6 @@
 }
 
 .central-sections {
-    height: 400px;
     width: 80%;
     height: 100%;
     margin: 0px auto;
@@ -147,13 +146,15 @@ header {
 
 /*section-1*/
 #section-1 {
-    height: 400px;
+    padding: 100px 0;
     color: white;
     background-image: url("../img/jumbo.png");   
 }
 
 #container-section-1 {
     font-size: 1.4rem;
+    width: 50%;
+    margin: auto;
 }
 
 /*section-2-3-4*/
@@ -175,8 +176,17 @@ header {
 
 /*section-5*/
 #section-5 {
-    height: 800px;
+    padding: 80px 0;
     background-color: silver;
+}
+
+#container-section-5 {
+    width: 80%;
+    margin: auto;
+}
+
+#section-5-img {
+    width: 100%;
 }
 
 #section-5-h2-p-container {
